@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+    @apply 
+    flex items-center h-10 rounded px-3 text-sm text-gray-600 dark:text-white font-medium hover:bg-slate-300 transition-colors dark:hover:bg-slate-500
+}
